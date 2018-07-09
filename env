@@ -1,0 +1,52 @@
+source $TELENV
+alias d done
+alias Pgup zoom in
+alias Pgdown zoom out
+alias End redisplay
+alias Insert add connect
+alias Home zoom fit
+alias Del delete
+alias Esc cancel
+alias mi mirror
+
+funckey r iangle 90
+funckey ar iangle 45
+#funckey " " iangle 90
+funckey g Define grid
+funckey pl add line
+funckey pt add connect
+funckey w add connect
+funckey l mirror
+funckey ps add text
+funckey tp color
+funckey zc zcopyshape
+funckey ed text edit
+funckey cw change width
+funckey m move
+funckey d done
+funckey Esc cancel
+funckey o oops
+
+funckey 1 'pop bbdrill;pop swap;subclass top'
+funckey 2 'pop bbdrill;pop swap;subclass bottom'
+funckey 3 'pop bbdrill;pop swap;subclass top;+'
+funckey 4 'pop bbdrill;pop swap;subclass top;+;+'
+
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+set padpath = $padpath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set miscpath = $miscpath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set psmpath = $psmpath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set devpath = $devpath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set parampath = $parampath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set modulepath = $modulepath "E:/2016年批示/pcb package lib allegro/PAD/" "E:/2016年批示/pcb package lib allegro/allegro_lib_com/"
+set steppath = $steppath D:/SPB_Data/pcbenv/3d/step
+unset shape_no_ripupthermal
+set infinite_cursor_bug_nt
+set pcb_cursor = infinite
+unset no_etch_shape_display
+unset no_shape_fill
+set unsupported_strip_design
