@@ -1,0 +1,14 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *U2.
+NOTE: Replacing illegal character * with X in *U2.
+done.
+Layer conversion file: E:/common lib/pcblib/allegro/dxf/SC70-6_l.cnv
+DXF file: E:/common lib/pcblib/allegro/dxf/SC70-6.dxf
+MCM file: E:/common lib/pcblib/allegro/lib/#Taaaaab07540.dra
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MICRONS
+Design precision: 3
+dxf2a complete.

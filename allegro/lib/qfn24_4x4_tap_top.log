@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN24_4X4_TAP_TOP.dra                         )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Wed Jul 11 09:04:59 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = E:/common lib/pcblib/pcb package lib allegro/allegro_lib_com
+    Name      = qfn24_4x4_tap_top.ssm
+    User      = Administrator
+    Machine   = TEMPORARY
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

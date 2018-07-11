@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BGU8L1.dra                                    )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Wed Jul 11 11:06:30 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/common lib/pcblib/allegro/lib
+    Name      = bgu8l1.psm
+    User      = Administrator
+    Machine   = TEMPORARY
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

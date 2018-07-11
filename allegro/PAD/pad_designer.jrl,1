@@ -1,0 +1,14 @@
+\t (00:03:31) pad_designer 16.6-2015 S051 (v16-6-112DY) Windows 32
+\t (00:03:31)     Journal start - Wed Jul 11 09:11:38 2018
+\t (00:03:31)         Host=TEMPORARY User=Administrator Pid=6176 CPUs=2
+\t (00:03:31) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:03:31) 
+\i (00:03:34) FORM padedit units Millimeter 
+\i (00:03:36) fillin yes 
+\w (00:03:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:03:38) FORM padedit layers  
+\i (00:03:42) FORM padedit shapebutton  
+\i (00:04:02) fillin "menu_cancel"
+\i (00:04:04) FORM padedit parameters  
+\i (00:04:58) pse_exit
+\t (00:04:58)     Journal end - Wed Jul 11 09:13:06 2018

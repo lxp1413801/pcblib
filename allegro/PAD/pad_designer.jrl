@@ -1,0 +1,50 @@
+\t (00:02:25) pad_designer 16.6-2015 S051 (v16-6-112DY) Windows 32
+\t (00:02:25)     Journal start - Wed Jul 11 09:21:37 2018
+\t (00:02:25)         Host=TEMPORARY User=Administrator Pid=4472 CPUs=2
+\t (00:02:25) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:02:25) 
+\i (00:02:30) FORM padedit units Millimeter 
+\i (00:02:32) fillin yes 
+\w (00:02:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:34) FORM padedit layers  
+\i (00:02:35) FORM padedit grid row begin_layer 
+\i (00:02:37) FORM padedit shapebutton  
+\i (00:02:40) fillin "Shape_Rec_2M5_Cut"
+\i (00:02:49) FORM padedit grid row soldermask_top 
+\i (00:02:53) FORM padedit grid row end_layer 
+\i (00:02:57) FORM padedit single YES 
+\i (00:02:59) FORM padedit grid row begin_layer 
+\i (00:03:02) FORM padedit grid row soldermask_top 
+\i (00:03:05) FORM padedit shapebutton  
+\i (00:03:16) fillin "Shape_Rec_2M5_Cut"
+\i (00:03:21) FORM padedit grid row pastemask_top 
+\i (00:07:55) FORM padedit geometry Rectangle 
+\i (00:08:03) FORM padedit width 1.5 
+\i (00:08:06) FORM padedit height 1.5 
+\i (00:08:10) FORM padedit crossbox YES 
+\i (00:08:11) FORM padedit stackbox YES 
+\i (00:08:16) FORM padedit grid row soldermask_top 
+\i (00:08:17) FORM padedit grid row begin_layer 
+\i (00:08:21) pse_save 
+\i (00:57:13) pse_new 
+\i (00:57:27) fillin "smdrec4m5cut.pad"
+\i (00:57:29) FORM padedit parameters  
+\i (00:57:31) FORM padedit units Millimeter 
+\i (00:57:32) fillin yes 
+\w (00:57:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:57:34) FORM padedit layers  
+\i (00:57:36) FORM padedit single YES 
+\i (00:57:39) FORM padedit shapebutton  
+\i (00:57:51) fillin "Shapsmdrec4m5cut"
+\i (00:57:55) FORM padedit grid row soldermask_top 
+\i (00:57:57) FORM padedit shapebutton  
+\i (00:58:01) fillin "Smdrec4m5cutsolder"
+\i (00:58:05) FORM padedit grid row pastemask_top 
+\i (00:58:07) FORM padedit shapebutton  
+\i (00:58:12) fillin "Shapesmdrec4m5cutpaste"
+\i (00:58:16) FORM padedit crossbox YES 
+\i (00:58:18) FORM padedit parameters  
+\i (00:58:18) FORM padedit layers  
+\i (00:58:21) pse_save 
+\i (02:26:18) pse_exit
+\t (02:26:18)     Journal end - Wed Jul 11 11:45:29 2018

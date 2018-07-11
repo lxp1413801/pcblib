@@ -1,0 +1,57 @@
+\t (00:00:03) apd 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:00:03)     Journal start - Wed Jul 11 14:15:58 2018
+\t (00:00:03)         Host=TEMPORARY User=Administrator Pid=5908 CPUs=2
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\apd.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: E:/common lib/pcblib/allegro/lib/SC70-6.dra
+\i (00:00:06) trapsize 299
+\i (00:00:06) trapsize 293
+\i (00:00:06) trapsize 299
+\i (00:00:06) trapsize 305
+\i (00:00:06) trapsize 305
+\i (00:00:06) generaledit 
+\i (00:00:41) pick grid -3.2179 0.6591
+\t (00:00:41) last pick:  -3.2000 0.7000
+\i (00:05:10) zoom out 1 
+\i (00:05:10) setwindow pcb
+\i (00:05:10) zoom out 2.5358 0.1588
+\i (00:05:10) trapsize 610
+\i (00:05:10) zoom in 1 
+\i (00:05:10) setwindow pcb
+\i (00:05:10) zoom in -0.2343 0.3296
+\i (00:05:10) trapsize 305
+\i (00:05:11) zoom in 1 
+\i (00:05:11) setwindow pcb
+\i (00:05:11) zoom in -0.1366 0.3479
+\i (00:05:11) trapsize 153
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out -1.3081 0.0124
+\i (00:05:12) trapsize 305
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out -1.5644 -0.0121
+\i (00:05:12) trapsize 610
+\i (00:05:30) save 
+\i (00:05:31) fillin no 
+\i (00:05:33) fillin "menu_cancel"
+\i (00:05:33) generaledit 
+\i (00:05:34) zoom in 1 
+\i (00:05:34) setwindow pcb
+\i (00:05:34) zoom in 0.7542 0.5737
+\i (00:05:34) trapsize 305
+\i (00:05:35) zoom out 1 
+\i (00:05:35) setwindow pcb
+\i (00:05:35) zoom out 1.0959 0.3357
+\i (00:05:35) trapsize 610
+\i (00:05:35) zoom in 1 
+\i (00:05:36) setwindow pcb
+\i (00:05:36) zoom in -0.7711 -0.0547
+\i (00:05:36) trapsize 305
+\i (00:08:41) zoom out 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom out 1.9196 -0.8174
+\i (00:08:41) trapsize 610
+\i (00:08:44) exit 
+\t (00:08:45)     Journal end - Wed Jul 11 14:24:39 2018

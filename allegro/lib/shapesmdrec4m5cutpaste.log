@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ShapeSmdRec4m5CutPaste.dra                    )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Wed Jul 11 10:16:19 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = E:/common lib/pcblib/allegro/lib
+    Name      = shapesmdrec4m5cutpaste.ssm
+    User      = Administrator
+    Machine   = TEMPORARY
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
