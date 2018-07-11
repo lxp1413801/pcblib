@@ -12,11 +12,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\liborcadcommlxp.olb")
-      (Select "Design Resources" ".\liborcadcommlxp.olb"))
+      (Path "Design Resources" ".\liborcadcommlxp.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 225"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 270"))
       (Tab 0))))
