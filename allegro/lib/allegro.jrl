@@ -1,0 +1,104 @@
+\t (00:01:05) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:01:05)     Journal start - Wed Jul 11 23:14:33 2018
+\t (00:01:05)         Host=VKK0FDEAPN5UZDC User=Administrator Pid=14752 CPUs=4
+\t (00:01:05) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:01:05) 
+\d (00:01:05) Design opened: D:/common lib/pcblib/allegro/lib/QFN28_6X6.dra
+\i (00:01:06) generaledit 
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 1.82 3.23
+\i (00:01:07) trapsize 5
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 1.82 3.24
+\i (00:01:07) trapsize 2
+\i (00:01:08) zoom in 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom in 1.84 3.23
+\i (00:01:08) trapsize 1
+\i (00:01:08) zoom out 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom out 1.75 3.04
+\i (00:01:08) trapsize 2
+\i (00:01:10) pick grid 1.96 3.40
+\t (00:01:10) last pick:  1.95 3.40
+\i (00:01:11) prepopup 1.96 3.40
+\i (00:01:15) pick grid 3.21 2.97
+\t (00:01:15) last pick:  3.20 2.95
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out 1.92 2.96
+\i (00:01:16) trapsize 5
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out 1.92 2.95
+\i (00:01:16) trapsize 10
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in -2.38 1.82
+\i (00:01:18) trapsize 5
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in -2.38 1.88
+\i (00:01:19) trapsize 2
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in -2.37 1.88
+\i (00:01:19) trapsize 1
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out -2.34 1.94
+\i (00:01:19) trapsize 2
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out -2.35 1.94
+\i (00:01:19) trapsize 5
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out -2.06 2.87
+\i (00:01:21) trapsize 10
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out -2.06 2.87
+\t (00:01:21) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:01:21) trapsize 20
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out -0.30 0.99
+\t (00:01:21) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:01:21) trapsize 39
+\i (00:01:22) zoom in 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom in -0.30 -0.18
+\t (00:01:22) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:01:22) trapsize 20
+\i (00:01:22) zoom in 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom in -0.30 -0.18
+\t (00:01:22) Grids are drawn 0.10, 0.10 apart for enhanced viewability.
+\i (00:01:22) trapsize 10
+\i (00:01:22) zoom in 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom in -0.30 -0.12
+\i (00:01:22) trapsize 5
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out -0.10 -0.91
+\i (00:01:23) trapsize 10
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out -0.11 -0.91
+\t (00:01:23) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:01:23) trapsize 20
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in -1.71 4.53
+\t (00:01:23) Grids are drawn 0.10, 0.10 apart for enhanced viewability.
+\i (00:01:23) trapsize 10
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in -1.71 4.53
+\i (00:01:23) trapsize 5
+\i (00:01:27) exit 
+\t (00:01:27)     Journal end - Wed Jul 11 23:14:55 2018

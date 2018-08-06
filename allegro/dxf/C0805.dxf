@@ -21,17 +21,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.9530351448103715
+-3.10899671095416
  20
--1.147324971060823
+-0.8504872020579934
  30
 0.0
   9
 $EXTMAX
  10
-4.406158528634225
+2.515604649175286
  20
-1.141756977829078
+1.438594746831898
  30
 0.0
   9
@@ -85,11 +85,11 @@ $ATTMODE
   9
 $TEXTSIZE
  40
-0.0
+0.2
   9
 $TRACEWID
  40
-1.0
+0.05
   9
 $TEXTSTYLE
   7
@@ -141,7 +141,7 @@ $DIMRND
   9
 $DIMDLE
  40
-6.0
+8.0
   9
 $DIMEXE
  40
@@ -341,7 +341,7 @@ $DIMALTU
   9
 $DIMALTTD
  70
-     2
+     3
   9
 $DIMTXSTY
   7
@@ -361,11 +361,11 @@ $LUPREC
   9
 $SKETCHINC
  40
-1.0
+0.1
   9
 $FILLETRAD
  40
-10.0
+0.5
   9
 $AUNITS
  70
@@ -397,15 +397,15 @@ $LIMCHECK
   9
 $CHAMFERA
  40
-10.0
+0.0
   9
 $CHAMFERB
  40
-10.0
+0.0
   9
 $CHAMFERC
  40
-20.0
+0.0
   9
 $CHAMFERD
  40
@@ -417,11 +417,11 @@ $SKPOLY
   9
 $TDCREATE
  40
-2457455.909767801
+2458337.972740659
   9
 $TDUPDATE
  40
-2457455.909768912
+2458337.972741817
   9
 $TDINDWG
  40
@@ -485,7 +485,7 @@ $HANDLING
   9
 $HANDSEED
   5
-EF
+12B
   9
 $SURFTAB1
  70
@@ -659,9 +659,9 @@ $PLIMMIN
   9
 $PLIMMAX
  10
-420.0
+12.0
  20
-297.0
+9.0
   9
 $UNITMODE
  70
@@ -697,7 +697,7 @@ $CMLJUST
   9
 $CMLSCALE
  40
-20.0
+1.0
   9
 $SAVEIMAGES
  70
@@ -753,6 +753,62 @@ ObjectDBX Classes
   0
 CLASS
   1
+SCALE
+  2
+AcDbScale
+  3
+ObjectDBX Classes
+ 90
+     1153
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+TABLESTYLE
+  2
+AcDbTableStyle
+  3
+ObjectDBX Classes
+ 90
+     4095
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+MLEADERSTYLE
+  2
+AcDbMLeaderStyle
+  3
+ACDB_MLEADERSTYLE_CLASS
+ 90
+     4095
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+SUN
+  2
+AcDbSun
+  3
+SCENEOE
+ 90
+     1153
+280
+     0
+281
+     0
+  0
+CLASS
+  1
 DICTIONARYVAR
   2
 AcDbDictionaryVar
@@ -771,7 +827,7 @@ XRECORD
   2
 AcDbXrecord
   3
-AutoCAD 2000
+ObjectDBX Classes
  90
     32768
 280
@@ -785,7 +841,7 @@ LWPOLYLINE
   2
 AcDbPolyline
   3
-AutoCAD 2000
+ObjectDBX Classes
  90
     32768
 280
@@ -799,7 +855,7 @@ HATCH
   2
 AcDbHatch
   3
-AutoCAD 2000
+ObjectDBX Classes
  90
     32768
 280
@@ -875,9 +931,9 @@ AcDbViewportTableRecord
  21
 1.0
  12
-1.726561691911927
+-0.2966960308894371
  22
--0.0027839966158727
+0.2940537723869521
  13
 0.0
  23
@@ -903,9 +959,9 @@ AcDbViewportTableRecord
  37
 0.0
  40
-2.289081948889901
+2.289081948889891
  41
-2.341197822141561
+2.457142857142857
  42
 50.0
  43
@@ -1015,7 +1071,7 @@ Solid line
   0
 LTYPE
   5
-86
+BF
 330
 5
 100
@@ -1045,7 +1101,7 @@ AcDbLinetypeTableRecord
   0
 LTYPE
   5
-87
+C0
 330
 5
 100
@@ -1083,7 +1139,7 @@ AcDbLinetypeTableRecord
   0
 LTYPE
   5
-88
+C1
 330
 5
 100
@@ -1167,7 +1223,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8A
+C3
 330
 2
 100
@@ -1191,7 +1247,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8B
+C4
 330
 2
 100
@@ -1215,7 +1271,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8C
+C5
 330
 2
 100
@@ -1239,7 +1295,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8D
+C6
 330
 2
 100
@@ -1263,7 +1319,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8E
+C7
 330
 2
 100
@@ -1287,7 +1343,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-8F
+C8
 330
 2
 100
@@ -1311,7 +1367,7 @@ ACAECLAYERSTANDARD
   0
 LAYER
   5
-90
+C9
 330
 2
 100
@@ -1369,15 +1425,27 @@ STANDARD
  71
      0
  42
-2.5
+0.0
   3
 txt
   4
 
+1001
+CAXA_DRAFT_TXTSTYLE
+1041
+0.0
+1041
+1.667
+1001
+ACAD
+1000
+宋体
+1071
+    34306
   0
 STYLE
   5
-91
+CA
 330
 3
 100
@@ -1397,7 +1465,7 @@ AcDbTextStyleTableRecord
  71
      0
  42
-0.0
+0.2
   3
 
   4
@@ -1417,7 +1485,7 @@ ACAD
   0
 STYLE
   5
-92
+CB
 330
 3
 100
@@ -1437,17 +1505,23 @@ AcDbTextStyleTableRecord
  71
      0
  42
-0.0
+0.2
   3
-isocp
+
   4
-gbcbig.shx
+
 1001
 CAXA_DRAFT_TXTSTYLE
 1041
 0.1
 1041
 1.918
+1001
+ACAD
+1000
+宋体
+1071
+    34306
   0
 ENDTAB
   0
@@ -1489,7 +1563,7 @@ APPID
 100
 AcDbSymbolTable
  70
-    71
+    82
   0
 APPID
   5
@@ -1507,7 +1581,7 @@ ACAD
   0
 APPID
   5
-3F
+6E
 330
 9
 100
@@ -1521,7 +1595,7 @@ CAXA_DRAFT_PAPERORDER
   0
 APPID
   5
-40
+6F
 330
 9
 100
@@ -1535,664 +1609,6 @@ CAXA_DRAFT_ROUGH
   0
 APPID
   5
-41
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DATUM
- 70
-     0
-  0
-APPID
-  5
-42
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_WELD
- 70
-     0
-  0
-APPID
-  5
-43
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_GEOTOL
- 70
-     0
-  0
-APPID
-  5
-44
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_CUTS
- 70
-     0
-  0
-APPID
-  5
-45
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMHALF
- 70
-     0
-  0
-APPID
-  5
-46
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMRAY
- 70
-     0
-  0
-APPID
-  5
-47
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMARCLEN
- 70
-     0
-  0
-APPID
-  5
-48
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMTAPER
- 70
-     0
-  0
-APPID
-  5
-49
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMPITCH
- 70
-     0
-  0
-APPID
-  5
-4A
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMCOORD
- 70
-     0
-  0
-APPID
-  5
-4B
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMORIALIGN
- 70
-     0
-  0
-APPID
-  5
-4C
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMHOLEPOS
- 70
-     0
-  0
-APPID
-  5
-4D
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMCRDLEADER
- 70
-     0
-  0
-APPID
-  5
-4E
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMCHAMFER
- 70
-     0
-  0
-APPID
-  5
-4F
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMCENTERHOLE
- 70
-     0
-  0
-APPID
-  5
-50
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMLEADER
- 70
-     0
-  0
-APPID
-  5
-51
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMCRDLIST
- 70
-     0
-  0
-APPID
-  5
-52
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PAPERSCALE
- 70
-     0
-  0
-APPID
-  5
-53
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_FILEVERSION
- 70
-     0
-  0
-APPID
-  5
-54
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PRODUCTVERSION
- 70
-     0
-  0
-APPID
-  5
-55
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DATATABLE
- 70
-     0
-  0
-APPID
-  5
-56
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PAPERINFO
- 70
-     0
-  0
-APPID
-  5
-57
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PAPERFRAME
- 70
-     0
-  0
-APPID
-  5
-58
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PAPERTITLE
- 70
-     0
-  0
-APPID
-  5
-59
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PAPERPAREATABLE
- 70
-     0
-  0
-APPID
-  5
-5A
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_PARTNO
- 70
-     0
-  0
-APPID
-  5
-5B
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_BOMTABLE
- 70
-     0
-  0
-APPID
-  5
-5C
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_BLKREF_EXTATT
- 70
-     0
-  0
-APPID
-  5
-5D
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DBVIEWDATA
- 70
-     0
-  0
-APPID
-  5
-5E
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMSYMTOL
- 70
-     0
-  0
-APPID
-  5
-5F
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMASSEMTOL
- 70
-     0
-  0
-APPID
-  5
-60
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMANGLETOL
- 70
-     0
-  0
-APPID
-  5
-61
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DRAFTDATA
- 70
-     0
-  0
-APPID
-  5
-62
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMORIGIN
- 70
-     0
-  0
-APPID
-  5
-63
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_ENLARGE_EDGE
- 70
-     0
-  0
-APPID
-  5
-64
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMSTY_T_VPOS
- 70
-     0
-  0
-APPID
-  5
-65
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMSTY_AT_VPOS
- 70
-     0
-  0
-APPID
-  5
-66
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_BLKHIDE
- 70
-     0
-  0
-APPID
-  5
-67
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMARROWREVERSE
- 70
-     0
-  0
-APPID
-  5
-68
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_TXTSTYLE
- 70
-     0
-  0
-APPID
-  5
-69
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_ATTRIBUTE_2PT
- 70
-     0
-  0
-APPID
-  5
-6A
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_ATTDEF_2PT
- 70
-     0
-  0
-APPID
-  5
-6B
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_DIMBIGARC
- 70
-     0
-  0
-APPID
-  5
-6C
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_ISNEB09R3
- 70
-     0
-  0
-APPID
-  5
-6D
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_WIPEOUT_B_HIDE
- 70
-     0
-  0
-APPID
-  5
-6E
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_BLKREF_SYMBOL
- 70
-     0
-  0
-APPID
-  5
-6F
-330
-9
-100
-AcDbSymbolTableRecord
-100
-AcDbRegAppTableRecord
-  2
-CAXA_DRAFT_ENL_COMMENTS
- 70
-     0
-  0
-APPID
-  5
 70
 330
 9
@@ -2201,7 +1617,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_ENL_TSCALE
+CAXA_DRAFT_ROUGH_STD
  70
      0
   0
@@ -2215,7 +1631,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_TXTSCALE
+CAXA_DRAFT_DATUM
  70
      0
   0
@@ -2229,7 +1645,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_KEEPLTSEG_ZOOM
+CAXA_DRAFT_WELD
  70
      0
   0
@@ -2243,7 +1659,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_SPECLIB
+CAXA_DRAFT_GEOTOL
  70
      0
   0
@@ -2257,7 +1673,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DATUM_2011R2
+CAXA_DRAFT_CUTS
  70
      0
   0
@@ -2271,7 +1687,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_ROUGH_2011R2
+CAXA_DRAFT_DIMHALF
  70
      0
   0
@@ -2285,7 +1701,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_GEOTOL_2011R2
+CAXA_DRAFT_DIMRAY
  70
      0
   0
@@ -2299,7 +1715,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DMOVMAP_2011R3
+CAXA_DRAFT_DIMARCLEN
  70
      0
   0
@@ -2313,7 +1729,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DDTSTY_2011R3
+CAXA_DRAFT_DIMTAPER
  70
      0
   0
@@ -2327,7 +1743,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_SDTSTY_2011R3
+CAXA_DRAFT_DIMPITCH
  70
      0
   0
@@ -2341,7 +1757,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CDRAFT_TXTROT_2011R3
+CAXA_DRAFT_DIMCOORD
  70
      0
   0
@@ -2355,7 +1771,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CDRAFT_TOLOUT_2011R3
+CAXA_DRAFT_DIMORIALIGN
  70
      0
   0
@@ -2369,7 +1785,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DIMARCLENSTYLE
+CAXA_DRAFT_DIMHOLEPOS
  70
      0
   0
@@ -2383,7 +1799,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DMOVMAP_2013
+CAXA_DRAFT_DIMCRDLEADER
  70
      0
   0
@@ -2397,7 +1813,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_DLLNTYPE
+CAXA_DRAFT_DIMCHAMFER
  70
      0
   0
@@ -2411,7 +1827,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_LBLLNTYPE
+CAXA_DRAFT_DIMCENTERHOLE
  70
      0
   0
@@ -2425,7 +1841,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_RBLLNTYPE
+CAXA_DRAFT_DIMLEADER
  70
      0
   0
@@ -2439,7 +1855,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_ISFILLDFM
+CAXA_DRAFT_DIMCRDLIST
  70
      0
   0
@@ -2453,7 +1869,7 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_DISPZTOOL
+CAXA_DRAFT_PAPERSCALE
  70
      0
   0
@@ -2467,7 +1883,77 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
-CAXA_DRAFT_DS_SYMCOLOR
+CAXA_DRAFT_FILEVERSION
+ 70
+     0
+  0
+APPID
+  5
+84
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_PRODUCTVERSION
+ 70
+     0
+  0
+APPID
+  5
+85
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DATATABLE
+ 70
+     0
+  0
+APPID
+  5
+86
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_PAPERINFO
+ 70
+     0
+  0
+APPID
+  5
+87
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_PAPERFRAME
+ 70
+     0
+  0
+APPID
+  5
+88
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_PAPERTITLE
  70
      0
   0
@@ -2481,7 +1967,749 @@ AcDbSymbolTableRecord
 100
 AcDbRegAppTableRecord
   2
+CAXA_DRAFT_PAPERPAREATABLE
+ 70
+     0
+  0
+APPID
+  5
+8A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_PARTNO
+ 70
+     0
+  0
+APPID
+  5
+8B
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_BOMTABLE
+ 70
+     0
+  0
+APPID
+  5
+8C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_BLKREF_EXTATT
+ 70
+     0
+  0
+APPID
+  5
+8D
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DBVIEWDATA
+ 70
+     0
+  0
+APPID
+  5
+8E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMSYMTOL
+ 70
+     0
+  0
+APPID
+  5
+8F
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMASSEMTOL
+ 70
+     0
+  0
+APPID
+  5
+90
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMANGLETOL
+ 70
+     0
+  0
+APPID
+  5
+91
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DRAFTDATA
+ 70
+     0
+  0
+APPID
+  5
+92
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMORIGIN
+ 70
+     0
+  0
+APPID
+  5
+93
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ENLARGE_EDGE
+ 70
+     0
+  0
+APPID
+  5
+94
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMSTY_T_VPOS
+ 70
+     0
+  0
+APPID
+  5
+95
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMSTY_AT_VPOS
+ 70
+     0
+  0
+APPID
+  5
+96
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_BLKHIDE
+ 70
+     0
+  0
+APPID
+  5
+97
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMARROWREVERSE
+ 70
+     0
+  0
+APPID
+  5
+98
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_TXTSTYLE
+ 70
+     0
+  0
+APPID
+  5
+99
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ATTRIBUTE_2PT
+ 70
+     0
+  0
+APPID
+  5
+9A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ATTDEF_2PT
+ 70
+     0
+  0
+APPID
+  5
+9B
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMBIGARC
+ 70
+     0
+  0
+APPID
+  5
+9C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ISNEB09R3
+ 70
+     0
+  0
+APPID
+  5
+9D
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_WIPEOUT_B_HIDE
+ 70
+     0
+  0
+APPID
+  5
+9E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_BLKREF_SYMBOL
+ 70
+     0
+  0
+APPID
+  5
+9F
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ENL_COMMENTS
+ 70
+     0
+  0
+APPID
+  5
+A0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ENL_TSCALE
+ 70
+     0
+  0
+APPID
+  5
+A1
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_TXTSCALE
+ 70
+     0
+  0
+APPID
+  5
+A2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_KEEPLTSEG_ZOOM
+ 70
+     0
+  0
+APPID
+  5
+A3
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_SPECLIB
+ 70
+     0
+  0
+APPID
+  5
+A4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DATUM_2011R2
+ 70
+     0
+  0
+APPID
+  5
+A5
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_ROUGH_2011R2
+ 70
+     0
+  0
+APPID
+  5
+A6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_GEOTOL_2011R2
+ 70
+     0
+  0
+APPID
+  5
+A7
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DMOVMAP_2011R3
+ 70
+     0
+  0
+APPID
+  5
+A8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DDTSTY_2011R3
+ 70
+     0
+  0
+APPID
+  5
+A9
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_SDTSTY_2011R3
+ 70
+     0
+  0
+APPID
+  5
+AA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CDRAFT_TXTROT_2011R3
+ 70
+     0
+  0
+APPID
+  5
+AB
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CDRAFT_TOLOUT_2011R3
+ 70
+     0
+  0
+APPID
+  5
+AC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DIMARCLENSTYLE
+ 70
+     0
+  0
+APPID
+  5
+AD
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DMOVMAP_2013
+ 70
+     0
+  0
+APPID
+  5
+AE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_DLLNTYPE
+ 70
+     0
+  0
+APPID
+  5
+AF
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_LBLLNTYPE
+ 70
+     0
+  0
+APPID
+  5
+B0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_RBLLNTYPE
+ 70
+     0
+  0
+APPID
+  5
+B1
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_ISFILLDFM
+ 70
+     0
+  0
+APPID
+  5
+B2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_DISPZTOOL
+ 70
+     0
+  0
+APPID
+  5
+B3
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_DS_SYMCOLOR
+ 70
+     0
+  0
+APPID
+  5
+B4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_HATCH_SCALE_ANG
+ 70
+     0
+  0
+APPID
+  5
+B5
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_GEOTOL_ISFROMDW
+ 70
+     0
+  0
+APPID
+  5
+B6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CXDRAGDIADIMLNSTYLE
+ 70
+     0
+  0
+APPID
+  5
+B7
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CXDRAGRADDIMLNSTYLE
+ 70
+     0
+  0
+APPID
+  5
+B8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CX_DBANNOTATE_SIMDIMORITXT
+ 70
+     0
+  0
+APPID
+  5
+B9
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CX_DBANNOTATE_TXTLOCPARA
+ 70
+     0
+  0
+APPID
+  5
+BA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CX_DBANNOTATE_DRAGTXTLOC
+ 70
+     0
+  0
+APPID
+  5
+BB
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+CAXA_DRAFT_IMAGE_BINARY
+ 70
+     0
+  0
+APPID
+  5
+BC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+DIMTXTFRMSTYLE_2015R1
+ 70
+     0
+  0
+APPID
+  5
+C2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
 ACAECLAYERSTANDARD
+ 70
+     0
+  0
+APPID
+  5
+12A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD_MLEADERVER
  70
      0
   0
@@ -2501,7 +2729,7 @@ AcDbSymbolTable
   0
 DIMSTYLE
 105
-93
+CC
 330
 A
 100
@@ -2535,7 +2763,7 @@ CAXARROW
  45
 0.0
  46
-6.0
+8.0
  47
 0.0
  48
@@ -2601,9 +2829,9 @@ CAXARROW
 273
      2
 274
-     2
+     3
 340
-91
+CA
 275
      0
 280
@@ -2644,6 +2872,10 @@ CAXA_DRAFT_DS_DISPZTOOL
 CAXA_DRAFT_DS_SYMCOLOR
 1071
 1090519039
+1001
+DIMTXTFRMSTYLE_2015R1
+1070
+     3
   0
 ENDTAB
   0
@@ -2702,10 +2934,34 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 *PAPER_SPACE
+1001
+CAXA_DRAFT_PAPERORDER
+1070
+     1
+1001
+CAXA_DRAFT_PAPERSCALE
+1041
+1.0
+1001
+CAXA_DRAFT_PAPERINFO
+1041
+0.0
+1041
+0.0
+1071
+        0
+1070
+     1
+1070
+     0
+1001
+CAXA_DRAFT_KEEPLTSEG_ZOOM
+1070
+     1
   0
 BLOCK_RECORD
   5
-94
+CD
 330
 1
 100
@@ -2717,7 +2973,7 @@ _CAXARROW
   0
 BLOCK_RECORD
   5
-E4
+11E
 330
 1
 100
@@ -2817,9 +3073,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-96
+CF
 330
-94
+CD
 100
 AcDbEntity
   8
@@ -2843,9 +3099,9 @@ _CAXARROW
   0
 INSERT
   5
-95
+CE
 330
-94
+CD
 100
 AcDbEntity
   8
@@ -2869,7 +3125,7 @@ ACAD
 1000
 R14_HATCH_DATA
 1000
-95
+CE
 1011
 1.0
 1021
@@ -2957,9 +3213,9 @@ SOLID
   0
 ENDBLK
   5
-97
+D0
 330
-94
+CD
 100
 AcDbEntity
   8
@@ -2969,9 +3225,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-E6
+120
 330
-E4
+11E
 100
 AcDbEntity
   8
@@ -2995,9 +3251,9 @@ AcDbBlockBegin
   0
 SOLID
   5
-E5
+11F
 330
-E4
+11E
 100
 AcDbEntity
   8
@@ -3033,9 +3289,9 @@ AcDbTrace
   0
 ENDBLK
   5
-E7
+121
 330
-E4
+11E
 100
 AcDbEntity
   8
@@ -3051,7 +3307,7 @@ ENTITIES
   0
 LINE
   5
-BE
+F8
 330
 1F
 100
@@ -3061,21 +3317,21 @@ AcDbEntity
 100
 AcDbLine
  10
--0.57
+-1.5
  20
--0.6
+0.5999999999999998
  30
 0.0
  11
--0.57
+1.5
  21
-0.6
+0.5999999999999998
  31
 0.0
   0
 LINE
   5
-BF
+F9
 330
 1F
 100
@@ -3085,37 +3341,13 @@ AcDbEntity
 100
 AcDbLine
  10
--0.57
+1.5
  20
-0.6
+-0.6000000000000004
  30
 0.0
  11
-2.48
- 21
-0.6
- 31
-0.0
-  0
-LINE
-  5
-C0
-330
-1F
-100
-AcDbEntity
-  8
-细实线层
-100
-AcDbLine
- 10
-2.48
- 20
-0.6
- 30
-0.0
- 11
-2.48
+-1.5
  21
 -0.6000000000000002
  31
@@ -3123,7 +3355,7 @@ AcDbLine
   0
 LINE
   5
-C1
+FA
 330
 1F
 100
@@ -3133,21 +3365,21 @@ AcDbEntity
 100
 AcDbLine
  10
-2.48
+-1.5
  20
--0.6000000000000002
+0.5999999999999998
  30
 0.0
  11
--0.57
+-1.5
  21
--0.6
+-0.6000000000000004
  31
 0.0
   0
 LINE
   5
-C2
+FB
 330
 1F
 100
@@ -3157,21 +3389,21 @@ AcDbEntity
 100
 AcDbLine
  10
-0.57
+1.5
  20
--0.6
+0.5999999999999998
  30
 0.0
  11
-0.57
+1.5
  21
-0.6
+-0.6000000000000004
  31
 0.0
   0
 LINE
   5
-C3
+FC
 330
 1F
 100
@@ -3181,21 +3413,21 @@ AcDbEntity
 100
 AcDbLine
  10
-1.34
+0.3999999999999999
  20
-0.6000000000000004
+0.5999999999999998
  30
 0.0
  11
-1.339999999999999
+0.3999999999999999
  21
--0.5999999999999998
+-0.6000000000000004
  31
 0.0
   0
-CIRCLE
+LINE
   5
-C4
+FD
 330
 1F
 100
@@ -3203,39 +3435,23 @@ AcDbEntity
   8
 细实线层
 100
-AcDbCircle
+AcDbLine
  10
-0.0
+-0.3999999999999999
  20
-0.0
+0.5999999999999998
  30
 0.0
- 40
-0.5
-  0
-CIRCLE
-  5
-C5
-330
-1F
-100
-AcDbEntity
-  8
-细实线层
-100
-AcDbCircle
- 10
-1.91
- 20
-0.0000000000000001
- 30
+ 11
+-0.3999999999999999
+ 21
+-0.6000000000000004
+ 31
 0.0
- 40
-0.5
   0
 LINE
   5
-C6
+FE
 330
 1F
 100
@@ -3245,205 +3461,193 @@ AcDbEntity
 100
 AcDbLine
  10
--0.4699999999952319
- 20
-0.7999999999999999
- 30
-0.0
- 11
-2.380000000121072
- 21
-0.7999999999999999
- 31
-0.0
-  0
-LINE
-  5
-C7
-330
-1F
-100
-AcDbEntity
-  8
-粗实线层
-100
-AcDbLine
- 10
--0.77
- 20
--0.5000000000245559
- 30
-0.0
- 11
--0.77
- 21
-0.5000000002981003
- 31
-0.0
-  0
-LINE
-  5
-C8
-330
-1F
-100
-AcDbEntity
-  8
-粗实线层
-100
-AcDbLine
- 10
-2.380000000093966
- 20
--0.8000000000000002
- 30
-0.0
- 11
--0.470000000030268
- 21
--0.7999999999999997
- 31
-0.0
-  0
-LINE
-  5
-C9
-330
-1F
-100
-AcDbEntity
-  8
-粗实线层
-100
-AcDbLine
- 10
-2.68
- 20
-0.4999999999450761
- 30
-0.0
- 11
-2.679999999999999
- 21
--0.5000000000993682
- 31
-0.0
-  0
-POLYLINE
-  5
-CA
-330
-1F
-100
-AcDbEntity
-  8
-虚线层
-100
-AcDb2dPolyline
- 66
-     1
- 10
-0.0
- 20
-0.0
- 30
-0.0
- 70
-     1
-  0
-VERTEX
-  5
-E0
-330
-CA
-100
-AcDbEntity
-  8
-虚线层
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
--0.7699999999999999
- 20
-0.7999999999999998
- 30
-0.0
-  0
-VERTEX
-  5
-E1
-330
-CA
-100
-AcDbEntity
-  8
-虚线层
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
--0.77
+1.299999999898866
  20
 -0.8000000000000005
  30
 0.0
-  0
-VERTEX
-  5
-E2
-330
-CA
-100
-AcDbEntity
-  8
-虚线层
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-2.679999999999998
- 20
--0.8000000000000003
- 30
+ 11
+-1.300000000054213
+ 21
+-0.8
+ 31
 0.0
   0
-VERTEX
+LINE
   5
-E3
+FF
 330
-CA
+1F
 100
 AcDbEntity
   8
-虚线层
+粗实线层
 100
-AcDbVertex
-100
-AcDb2dVertex
+AcDbLine
  10
-2.679999999999999
+1.7
  20
-0.7999999999999997
+0.399999999919296
  30
 0.0
+ 11
+1.7
+ 21
+-0.4000000000814907
+ 31
+0.0
   0
-SEQEND
+LINE
   5
-EE
+100
 330
-CA
+1F
 100
 AcDbEntity
   8
-虚线层
+细实线层
+100
+AcDbLine
+ 10
+-1.5
+ 20
+0.5999999999999998
+ 30
+0.0
+ 11
+-0.3999999999999999
+ 21
+-0.6000000000000004
+ 31
+0.0
+  0
+LINE
+  5
+101
+330
+1F
+100
+AcDbEntity
+  8
+细实线层
+100
+AcDbLine
+ 10
+-1.5
+ 20
+-0.6000000000000002
+ 30
+0.0
+ 11
+-0.3999999999999999
+ 21
+0.5999999999999998
+ 31
+0.0
+  0
+LINE
+  5
+102
+330
+1F
+100
+AcDbEntity
+  8
+细实线层
+100
+AcDbLine
+ 10
+0.3999999999999999
+ 20
+0.5999999999999998
+ 30
+0.0
+ 11
+1.5
+ 21
+-0.6000000000000004
+ 31
+0.0
+  0
+LINE
+  5
+103
+330
+1F
+100
+AcDbEntity
+  8
+细实线层
+100
+AcDbLine
+ 10
+0.3999999999999999
+ 20
+-0.6000000000000004
+ 30
+0.0
+ 11
+1.5
+ 21
+0.5999999999999998
+ 31
+0.0
+  0
+LINE
+  5
+104
+330
+1F
+100
+AcDbEntity
+  8
+粗实线层
+ 62
+     7
+100
+AcDbLine
+ 10
+-1.7
+ 20
+0.4000000001391129
+ 30
+0.0
+ 11
+-1.7
+ 21
+-0.3999999998410132
+ 31
+0.0
+  0
+LINE
+  5
+105
+330
+1F
+100
+AcDbEntity
+  8
+粗实线层
+ 62
+     7
+100
+AcDbLine
+ 10
+-1.300000000047152
+ 20
+0.7999999999999999
+ 30
+0.0
+ 11
+1.300000000104774
+ 21
+0.7999999999999998
+ 31
+0.0
   0
 ARC
   5
-CB
+106
 330
 1F
 100
@@ -3453,23 +3657,23 @@ AcDbEntity
 100
 AcDbCircle
  10
--0.4700000002981004
+-1.300000000139113
  20
-0.5000000002981003
+0.4000000001391129
  30
 0.0
  40
-0.2999999997018996
+0.3999999998608863
 100
 AcDbArc
  50
-89.99999993638234
+89.99999998682766
  51
-180.0000000000001
+180.0000000000002
   0
 ARC
   5
-CC
+107
 330
 1F
 100
@@ -3479,23 +3683,23 @@ AcDbEntity
 100
 AcDbCircle
  10
-2.380000000206684
+-1.299999999841013
  20
-0.5000000002066842
+-0.3999999998410131
  30
 0.0
  40
-0.2999999997933157
+0.4000000001589865
 100
 AcDbArc
  50
-0.0
+180.0
  51
-90.0000000558245
+269.9999999694613
   0
 ARC
   5
-CD
+108
 330
 1F
 100
@@ -3505,23 +3709,23 @@ AcDbEntity
 100
 AcDbCircle
  10
-2.380000000099367
+1.299999999880761
  20
--0.5000000000993682
+-0.3999999998807607
  30
 0.0
  40
-0.2999999999006326
+0.4000000001192398
 100
 AcDbArc
  50
-269.9999999962843
+270.0000000070746
  51
-0.0
+359.9999999712476
   0
 ARC
   5
-CE
+109
 330
 1F
 100
@@ -3531,19 +3735,121 @@ AcDbEntity
 100
 AcDbCircle
  10
--0.4700000000516711
+1.300000000178859
  20
--0.5000000000516707
+0.4000000001788589
  30
 0.0
  40
-0.2999999999483289
+0.3999999998211409
 100
 AcDbArc
  50
-179.9999999999999
+0.0
  51
-270.000000013956
+90.00000004123413
+  0
+VIEWPORT
+  5
+10C
+330
+1B
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbViewport
+ 68
+     1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+300.0
+ 41
+220.0
+ 68
+     1
+ 69
+     1
+1001
+ACAD
+1000
+MVIEW
+1002
+{
+1070
+    16
+1010
+0.0
+1020
+0.0
+1030
+0.0
+1010
+0.0
+1020
+0.0
+1030
+1.0
+1040
+0.0
+1040
+1.0
+1040
+0.0
+1040
+0.0
+1040
+50.0
+1040
+0.0
+1040
+0.0
+1070
+     0
+1070
+   100
+1070
+     0
+1070
+     3
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     0
+1040
+0.0
+1040
+0.0
+1040
+0.0
+1040
+0.5
+1040
+0.5
+1040
+0.0
+1040
+0.0
+1070
+     0
+1002
+{
+1002
+}
+1002
+}
   0
 ENDSEC
   0
@@ -3569,11 +3875,11 @@ ACAD_LAYOUT
   3
 ACAD_MATERIAL
 350
-3B
+43
   3
 ACAD_MLEADERSTYLE
 350
-DB
+6B
   3
 ACAD_MLINESTYLE
 350
@@ -3583,97 +3889,105 @@ ACAD_PLOTSETTINGS
 350
 19
   3
+ACAD_SCALELIST
+350
+47
+  3
 ACAD_VISUALSTYLE
 350
 2A
   3
 ACDBVARIABLEDICTIONARY
 350
-D9
+117
   3
 CAXA_DRAFT_BOMSTYLE
 350
-B9
+F2
   3
 CAXA_DRAFT_CUTSSTYLE
 350
-AF
+E8
   3
 CAXA_DRAFT_CUTSSTYLEOVERRIDE
 350
-B2
+EB
   3
 CAXA_DRAFT_DATATABLE*MODEL
 350
-BC
+F6
+  3
+CAXA_DRAFT_DATATABLE*PAPER
+350
+10A
   3
 CAXA_DRAFT_DATUMSTYLE
 350
-AA
+E3
   3
 CAXA_DRAFT_DATUMSTYLEOVERRIDE
 350
-AD
+E6
   3
 CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
 350
-CF
+10D
   3
 CAXA_DRAFT_DIMSTYLE_ISDISP
 350
-D3
+111
   3
 CAXA_DRAFT_DIMSTYLE_ISFILLDFM
 350
-D1
+10F
   3
 CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
 350
-D5
+113
   3
 CAXA_DRAFT_DRAFTDATA
 350
-D7
+115
   3
 CAXA_DRAFT_FILEVERSION
 350
-84
+BD
   3
 CAXA_DRAFT_GEOTOLSTYLE
 350
-A5
+DE
   3
 CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
 350
-A8
+E1
   3
 CAXA_DRAFT_LEADERSTYLE
 350
-98
+D1
   3
 CAXA_DRAFT_PARTNOSTYLE
 350
-B4
+ED
   3
 CAXA_DRAFT_PARTNOSTYLEOVERRIDE
 350
-B7
+F0
   3
 CAXA_DRAFT_ROUGHSTYLE
 350
-A0
+D9
   3
 CAXA_DRAFT_ROUGHSTYLEOVERRIDE
 350
-A3
+DC
   3
 CAXA_DRAFT_WELDSTYLE
 350
-9B
+D4
   3
 CAXA_DRAFT_WELDSTYLEOVERRIDE
 350
-9E
+D7
 1001
 ACAD
 1000
@@ -3723,7 +4037,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-3B
+43
 102
 {ACAD_REACTORS
 330
@@ -3737,15 +4051,15 @@ AcDbDictionary
   3
 BYBLOCK
 350
-3D
+45
   3
 BYLAYER
 350
-3C
+44
   3
 GLOBAL
 350
-3E
+46
 1001
 ACAD
 1000
@@ -3755,7 +4069,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-DB
+6B
 102
 {ACAD_REACTORS
 330
@@ -3766,6 +4080,10 @@ C
 C
 100
 AcDbDictionary
+  3
+STANDARD
+350
+6C
 1001
 ACAD
 1000
@@ -3790,6 +4108,10 @@ AcDbDictionary
 STANDARD
 350
 18
+  3
+标准
+350
+F5
 1001
 ACAD
 1000
@@ -3819,6 +4141,158 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
+47
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+A0
+350
+48
+  3
+A1
+350
+49
+  3
+A2
+350
+4A
+  3
+A3
+350
+4B
+  3
+A4
+350
+4C
+  3
+A5
+350
+4D
+  3
+A6
+350
+4E
+  3
+A7
+350
+4F
+  3
+A8
+350
+50
+  3
+A9
+350
+51
+  3
+B0
+350
+52
+  3
+B1
+350
+53
+  3
+B2
+350
+54
+  3
+B3
+350
+55
+  3
+B4
+350
+56
+  3
+B5
+350
+57
+  3
+B6
+350
+58
+  3
+B7
+350
+59
+  3
+B8
+350
+5A
+  3
+B9
+350
+5B
+  3
+C0
+350
+5C
+  3
+C1
+350
+5D
+  3
+C2
+350
+5E
+  3
+C3
+350
+5F
+  3
+C4
+350
+60
+  3
+C5
+350
+61
+  3
+C6
+350
+62
+  3
+C7
+350
+63
+  3
+C8
+350
+64
+  3
+C9
+350
+65
+  3
+D0
+350
+66
+  3
+D1
+350
+67
+  3
+D2
+350
+68
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
 2A
 102
 {ACAD_REACTORS
@@ -3834,14 +4308,6 @@ AcDbDictionary
 2DWIREFRAME
 350
 2F
-  3
-3D_HIDDEN
-350
-31
-  3
-3DWIREFRAME
-350
-30
   3
 BASIC
 350
@@ -3863,6 +4329,10 @@ DIM
 350
 35
   3
+EDGECOLOROFF
+350
+3D
+  3
 FACEPATTERN
 350
 39
@@ -3883,17 +4353,53 @@ GOURAUDWITHEDGES
 350
 2E
   3
+HIDDEN
+350
+31
+  3
+JITTEROFF
+350
+3B
+  3
 LINEPATTERN
 350
 38
+  3
+OVERHANGOFF
+350
+3C
   3
 REALISTIC
 350
 33
   3
+SHADED
+350
+42
+  3
+SHADED_WITH_EDGES
+350
+41
+  3
+SHADES_OF_GRAY
+350
+3E
+  3
+SKETCHY
+350
+3F
+  3
 THICKEN
 350
 37
+  3
+WIREFRAME
+350
+30
+  3
+X-RAY
+350
+40
 1001
 ACAD
 1000
@@ -3903,7 +4409,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-D9
+117
 102
 {ACAD_REACTORS
 330
@@ -3915,21 +4421,29 @@ C
 100
 AcDbDictionary
   3
+CANNOSCALE
+350
+122
+  3
+CMLEADERSTYLE
+350
+119
+  3
+CTABLESTYLE
+350
+118
+  3
 DIMASSOC
 350
-DE
+11C
   3
 HIDETEXT
 350
-DF
+11D
   3
-PSOLHEIGHT
+MSLTSCALE
 350
-DD
-  3
-PSOLWIDTH
-350
-DC
+123
 1001
 ACAD
 1000
@@ -3939,7 +4453,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-B9
+F2
 102
 {ACAD_REACTORS
 330
@@ -3953,11 +4467,11 @@ AcDbDictionary
   3
 CAXA_DRAFT_CURRENTBOMSTYLE
 350
-BA
+F3
   3
 标准
 350
-BB
+F4
 1001
 ACAD
 1000
@@ -3967,7 +4481,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-AF
+E8
 102
 {ACAD_REACTORS
 330
@@ -3981,11 +4495,11 @@ AcDbDictionary
   3
 CAXA_DRAFT_CURRENTCUTSSTYLE
 350
-B0
+E9
   3
 标准
 350
-B1
+EA
 1001
 ACAD
 1000
@@ -3995,7 +4509,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-B2
+EB
 102
 {ACAD_REACTORS
 330
@@ -4009,7 +4523,7 @@ AcDbDictionary
   3
 CAXA_DRAFT_CUTSSTYLEOVERRIDE
 350
-B3
+EC
 1001
 ACAD
 1000
@@ -4019,7 +4533,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-BC
+F6
 102
 {ACAD_REACTORS
 330
@@ -4033,7 +4547,7 @@ AcDbDictionary
   3
 CAXA_DRAFT_DATATABLE*MODEL
 350
-BD
+F7
 1001
 ACAD
 1000
@@ -4043,7 +4557,31 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-AA
+10A
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_DATATABLE*PAPER
+350
+10B
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+E3
 102
 {ACAD_REACTORS
 330
@@ -4057,11 +4595,11 @@ AcDbDictionary
   3
 CAXA_DRAFT_CURRENTDATUMSTYLE
 350
-AB
+E4
   3
 标准
 350
-AC
+E5
 1001
 ACAD
 1000
@@ -4071,7 +4609,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-AD
+E6
 102
 {ACAD_REACTORS
 330
@@ -4085,7 +4623,7 @@ AcDbDictionary
   3
 CAXA_DRAFT_DATUMSTYLEOVERRIDE
 350
-AE
+E7
 1001
 ACAD
 1000
@@ -4095,7 +4633,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-CF
+10D
 102
 {ACAD_REACTORS
 330
@@ -4109,7 +4647,7 @@ AcDbDictionary
   3
 CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
 350
-D0
+10E
 1001
 ACAD
 1000
@@ -4119,7 +4657,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-D3
+111
 102
 {ACAD_REACTORS
 330
@@ -4133,7 +4671,155 @@ AcDbDictionary
   3
 CAXA_DRAFT_DIMSTYLE_ISDISP
 350
-D4
+112
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+10F
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_DIMSTYLE_ISFILLDFM
+350
+110
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+113
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
+350
+114
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+115
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_DRAFTDATA
+350
+116
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+BD
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_FILEVERSION
+350
+BE
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+DE
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_CURRENTGEOTOLSTYLE
+350
+DF
+  3
+标准
+350
+E0
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+E1
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
+350
+E2
 1001
 ACAD
 1000
@@ -4155,9 +4841,13 @@ C
 100
 AcDbDictionary
   3
-CAXA_DRAFT_DIMSTYLE_ISFILLDFM
+CAXA_DRAFT_CURRENTLEADERSTYLE
 350
 D2
+  3
+标准
+350
+D3
 1001
 ACAD
 1000
@@ -4167,7 +4857,7 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-D5
+ED
 102
 {ACAD_REACTORS
 330
@@ -4179,7 +4869,115 @@ C
 100
 AcDbDictionary
   3
-CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
+CAXA_DRAFT_CURRENTPARTNOSTYLE
+350
+EE
+  3
+标准
+350
+EF
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+F0
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_PARTNOSTYLEOVERRIDE
+350
+F1
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+D9
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_CURRENTROUGHSTYLE
+350
+DA
+  3
+标准
+350
+DB
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+DC
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_ROUGHSTYLEOVERRIDE
+350
+DD
+1001
+ACAD
+1000
+TREAT_AS_HARD
+1070
+     0
+  0
+DICTIONARY
+  5
+D4
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+  3
+CAXA_DRAFT_CURRENTWELDSTYLE
+350
+D5
+  3
+标准
 350
 D6
 1001
@@ -4203,7 +5001,7 @@ C
 100
 AcDbDictionary
   3
-CAXA_DRAFT_DRAFTDATA
+CAXA_DRAFT_WELDSTYLEOVERRIDE
 350
 D8
 1001
@@ -4213,331 +5011,107 @@ TREAT_AS_HARD
 1070
      0
   0
-DICTIONARY
-  5
-84
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_FILEVERSION
-350
-85
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-A5
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_CURRENTGEOTOLSTYLE
-350
-A6
-  3
-标准
-350
-A7
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-A8
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
-350
-A9
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-98
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_CURRENTLEADERSTYLE
-350
-99
-  3
-标准
-350
-9A
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-B4
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_CURRENTPARTNOSTYLE
-350
-B5
-  3
-标准
-350
-B6
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-B7
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_PARTNOSTYLEOVERRIDE
-350
-B8
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-A0
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_CURRENTROUGHSTYLE
-350
-A1
-  3
-标准
-350
-A2
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-A3
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_ROUGHSTYLEOVERRIDE
-350
-A4
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-9B
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_CURRENTWELDSTYLE
-350
-9C
-  3
-标准
-350
-9D
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
-DICTIONARY
-  5
-9E
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-  3
-CAXA_DRAFT_WELDSTYLEOVERRIDE
-350
-9F
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
-  0
 MATERIAL
   5
-3D
+45
 102
 {ACAD_REACTORS
 330
-3B
+43
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-EA
+126
 102
 }
 330
-3B
+43
 100
 AcDbMaterial
   1
-ByBlock
+BYBLOCK
   0
 MATERIAL
   5
-3C
+44
 102
 {ACAD_REACTORS
 330
-3B
+43
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-E8
+124
 102
 }
 330
-3B
+43
 100
 AcDbMaterial
   1
-ByLayer
+BYLAYER
   0
 MATERIAL
   5
-3E
+46
 102
 {ACAD_REACTORS
 330
-3B
+43
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-EC
+128
 102
 }
 330
-3B
+43
 100
 AcDbMaterial
   1
-Global
+GLOBAL
+  0
+ACAD_PROXY_OBJECT
+  5
+6C
+102
+{ACAD_REACTORS
+330
+6B
+102
+}
+330
+6B
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      505
+ 93
+      610
+310
+40901902A4063FBFFFFFE056BD1B81E855B9FC0AD7A3703D0AD73F4214DD185B99185C9900AD7A3703D0AC73F90141901A02B5E8DC0F42B1CFC02B5E8DC0F42B1CFE5764000000000000300FC0
+340
+14
+340
+0
+340
+11
+340
+0
+ 94
+        0
+1001
+ACAD_MLEADERVER
+1070
+     2
   0
 MLINESTYLE
   5
@@ -4579,6 +5153,772 @@ BYLAYER
   6
 BYLAYER
   0
+MLINESTYLE
+  5
+F5
+102
+{ACAD_REACTORS
+330
+17
+102
+}
+330
+17
+100
+AcDbMlineStyle
+  2
+标准
+ 70
+     0
+  3
+标准
+ 62
+   256
+ 51
+90.0
+ 52
+90.0
+ 71
+     2
+ 49
+0.5
+ 62
+   256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+   256
+  6
+BYLAYER
+  0
+ACAD_PROXY_OBJECT
+  5
+48
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+       41
+310
+903313A31580
+  0
+ACAD_PROXY_OBJECT
+  5
+49
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903313A324000000000000004000
+  0
+ACAD_PROXY_OBJECT
+  5
+4A
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903313A344000000000000104000
+  0
+ACAD_PROXY_OBJECT
+  5
+4B
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903313A354000000000000144000
+  0
+ACAD_PROXY_OBJECT
+  5
+4C
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903313A384000000000000204000
+  0
+ACAD_PROXY_OBJECT
+  5
+4D
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A31304000000000000244000
+  0
+ACAD_PROXY_OBJECT
+  5
+4E
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A31364000000000000304000
+  0
+ACAD_PROXY_OBJECT
+  5
+4F
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A32304000000000000344000
+  0
+ACAD_PROXY_OBJECT
+  5
+50
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A333040000000000003E4000
+  0
+ACAD_PROXY_OBJECT
+  5
+51
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A34304000000000000444000
+  0
+ACAD_PROXY_OBJECT
+  5
+52
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+904313A35304000000000000494000
+  0
+ACAD_PROXY_OBJECT
+  5
+53
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      121
+310
+905313A3130304000000000000594000
+  0
+ACAD_PROXY_OBJECT
+  5
+54
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903323A310000000000000010100
+  0
+ACAD_PROXY_OBJECT
+  5
+55
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903343A310000000000000410100
+  0
+ACAD_PROXY_OBJECT
+  5
+56
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      105
+310
+903383A310000000000000810100
+  0
+ACAD_PROXY_OBJECT
+  5
+57
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      113
+310
+90431303A310000000000000910100
+  0
+ACAD_PROXY_OBJECT
+  5
+58
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      121
+310
+9053130303A310000000000001650100
+  0
+ACAD_PROXY_OBJECT
+  5
+59
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      257
+310
+90E312F31323822203D2031272D3022000000000000200FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5A
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D312F363422203D2031272D3022000000000000240FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5B
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D312F333222203D2031272D3022000000000000280FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5C
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D312F313622203D2031272D30220000000000002C0FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5D
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D332F333222203D2031272D30220000000000002E0FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5E
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      241
+310
+90C312F3822203D2031272D3022000000000000300FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+5F
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D332F313622203D2031272D3022000000000000320FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+60
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      241
+310
+90C312F3422203D2031272D3022000000000000340FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+61
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      241
+310
+90C332F3822203D2031272D3022000000000000360FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+62
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      241
+310
+90C312F3222203D2031272D3022000000000000380FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+63
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      241
+310
+90C332F3422203D2031272D30220000000000003A0FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+64
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      161
+310
+90A3122203D2031272D30224000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+65
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      257
+310
+90E312D312F3222203D2031272D30220000000000003E0FC000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+66
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      225
+310
+90A3322203D2031272D302200000000000002100000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+67
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      225
+310
+90A3622203D2031272D302200000000000006100000000000000284000
+  0
+ACAD_PROXY_OBJECT
+  5
+68
+102
+{ACAD_REACTORS
+330
+47
+102
+}
+330
+47
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      503
+ 93
+      249
+310
+90D31272D3022203D2031272D30220000000000000A100000000000000284000
+  0
 ACAD_PROXY_OBJECT
   5
 2F
@@ -4599,63 +5939,7 @@ AcDbZombieObject
  93
       436
 310
-42CC9915DA5C99599C985B595049028333333333333E3BF0000000000000FB0107901411070040501600405405064090741402480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
-     0
-  0
-ACAD_PROXY_OBJECT
-  5
-31
-102
-{ACAD_REACTORS
-330
-2A
-102
-}
-330
-2A
-100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      500
-310
-424CD108121A5919195B90640502408333333333333E3BF0000000000000FB01079024090700405020000000000001110200405405064090740C02480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
-     0
-  0
-ACAD_PROXY_OBJECT
-  5
-30
-102
-{ACAD_REACTORS
-330
-2A
-102
-}
-330
-2A
-100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      436
-310
-42CCD915DA5C99599C985B595059028333333333333E3BF0000000000000FB0107901411070040501600405405064090741402480A0340
+42CC9915DA5C99599C985B595049028333333333333E33F0000000000000F90107901411070040501600405405064090741402480A0340
 1001
 ACAD
 1000
@@ -4683,7 +5967,7 @@ AcDbZombieObject
  93
       388
 310
-4150985CDA58D07406404333333333333E3BF0000000000000FB0107A41107004050150841D405064090741402480A0350
+4150985CDA58D07406404333333333333E33F0000000000000F90107A41107004050150841D405064090741402480A0350
 1001
 ACAD
 1000
@@ -4711,7 +5995,7 @@ AcDbZombieObject
  93
       428
 310
-42109C9A59DA1D195B90C409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A029950
+42109C9A59DA1D195B90C409028333333333333E33F0000000000000F9010790141107004050150841D405064090741402480A029950
 1001
 ACAD
 1000
@@ -4739,7 +6023,7 @@ AcDbZombieObject
  93
       452
 310
-42D0DBDB1BDC90DA185B99D95104090240C333333333333E3BF0000000000000FB0108901411070040501508421405064090741402480A0350
+42D0DBDB1BDC90DA185B99D95104090240C333333333333E33F0000000000000F90108901411070040501508421405064090741402480A0350
 1001
 ACAD
 1000
@@ -4767,7 +6051,7 @@ AcDbZombieObject
  93
       500
 310
-4290DBDB98D95C1D1D585B10940D028333333333333E3BF0000000000000FB0107902409070040501000000000000111010841D405064090740C02480A0340
+4290DBDB98D95C1D1D585B10940D028333333333333E33F0000000000000F90107902409070040501000000000018199010841D405064090740C02480A0340
 1001
 ACAD
 1000
@@ -4795,7 +6079,35 @@ AcDbZombieObject
  93
       412
 310
-40D11A5B50B409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A02677FFFFFD0
+40D11A5B50B409028333333333333E33F0000000000000F9010790141107004050150841D405064090741402480A02677FFFFFD0
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+3D
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      452
+310
+43115919D950DBDB1BDC93D999916409028333333333333E33F0000000000000F9010790141107004050150841D405064090741402480A0350
 1001
 ACAD
 1000
@@ -4823,7 +6135,7 @@ AcDbZombieObject
  93
       444
 310
-42D19858D95C185D1D195C9B90F409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A0350
+42D19858D95C185D1D195C9B90F409028333333333333E33F0000000000000F9010790141107004050150841D405064090741402480A0350
 1001
 ACAD
 1000
@@ -4849,9 +6161,9 @@ AcDbZombieObject
  91
       501
  93
-      388
+      380
 310
-41119B185D240901404333333333333E3BF0000000000000F9010740A41107004050150841D405064090741402480A1B50
+41119B185D240901404333333333333E33F0000000000000F9010740A907004050150841D405064090741402480A1B50
 1001
 ACAD
 1000
@@ -4877,9 +6189,9 @@ AcDbZombieObject
  91
       501
  93
-      476
+      468
 310
-43519B185D15DA5D1A115919D95CD0140901404333333333333E3BF0000000000000F9010740901411070040501600405405064090741402480A1B50
+43519B185D15DA5D1A115919D95CD0140901404333333333333E33F0000000000000F90107409019070040501600405405064090741402480A1B50
 1001
 ACAD
 1000
@@ -4905,9 +6217,9 @@ AcDbZombieObject
  91
       501
  93
-      412
+      404
 310
-41D1DBDD5C985D5910240902404333333333333E3BF0000000000000F9010740A411070040501641D405064090741402480A1B50
+41D1DBDD5C985D5910240902404333333333333E33F0000000000000F9010740A9070040501641D405064090741402480A1B50
 1001
 ACAD
 1000
@@ -4933,9 +6245,65 @@ AcDbZombieObject
  91
       501
  93
-      500
+      492
 310
-4411DBDD5C985D5915DA5D1A115919D95CD0340902404333333333333E3BF0000000000000F9010740901411070040501600405405064090741402480A1B50
+4411DBDD5C985D5915DA5D1A115919D95CD0340902404333333333333E33F0000000000000F90107409019070040501600405405064090741402480A1B50
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+31
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      476
+310
+41921A5919195B90640502408333333333333E33F0000000000000F901079024090700405020000000000001110200405405064090740C02480A0340
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+3B
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      428
+310
+42529A5D1D195C93D999914409028333333333333E33F0000000000000F9010790141107004050150A41D405064090741402480A0350
 1001
 ACAD
 1000
@@ -4963,7 +6331,35 @@ AcDbZombieObject
  93
       444
 310
-42D31A5B995C185D1D195C9B90E409028333333333333E3BF0000000000000FB010790141107004050750841D405064090741402483A0350
+42D31A5B995C185D1D195C9B90E409028333333333333E33F0000000000000F9010790141107004050750841D405064090741402483A0350
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+3C
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      444
+310
+42D3DD995C9A185B99D3D999915409028333333333333E33F0000000000000F9010790141107004050150941D405064090741402480A0350
 1001
 ACAD
 1000
@@ -4989,9 +6385,121 @@ AcDbZombieObject
  91
       501
  93
+      428
+310
+425499585B1A5CDD1A58D08409038333333333333E33F0000000000000F9010740A907004050150800405405064090740C02480A1B40
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+42
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
       420
 310
-425499585B1A5CDD1A58D08409028333333333333E3BF0000000000000FB01079019070040501508421405064090741402480A1B40
+4194DA1859195911B40902404333333333333E33F0000000000000F9010740A41107004050150800405405064090840C02480A0B40
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+41
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      516
+310
+4454DA18591959081DDA5D1A08195919D95CD1A40902404333333333333E33F0000000000000F901074090142907004050250800405405064090740C02480A0B40
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+3E
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      532
+310
+4394DA1859195CC81BD98811DC985E5174090240C333333333333E33F0000000000000F901079024090741D01000000000000111010841D405064090740C02480A0340
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+3F
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      476
+310
+41D4DAD95D18DA1E51840502408333333333333E33F0000000000000F901079024090741D01000000000000111010B41D405064090741802480A0340
 1001
 ACAD
 1000
@@ -5019,7 +6527,63 @@ AcDbZombieObject
  93
       412
 310
-41D51A1A58DAD95B90D409028333333333333E3BF0000000000000FB010790141107004050150C41D405064090741402480A0350
+41D51A1A58DAD95B90D409028333333333333E33F0000000000000F9010790141107004050150C41D405064090741402480A0350
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+30
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      420
+310
+4255DA5C99599C985B595059028333333333333E33F0000000000000F90107901411070040501600405405064090740C02480A0340
+1001
+ACAD
+1000
+AcDbSavedByObjectVersion
+1070
+     0
+  0
+ACAD_PROXY_OBJECT
+  5
+40
+102
+{ACAD_REACTORS
+330
+2A
+102
+}
+330
+2A
+100
+AcDbZombieObject
+ 90
+      499
+ 91
+      501
+ 93
+      404
+310
+41560B54985E51940902404000000000000E03F0000000000000F9010740501907004050150841D405064090740C02480A1B40
 1001
 ACAD
 1000
@@ -5029,15 +6593,69 @@ AcDbSavedByObjectVersion
   0
 DICTIONARYVAR
   5
-DE
+122
 102
 {ACAD_REACTORS
 330
-D9
+117
 102
 }
 330
-D9
+117
+100
+DictionaryVariables
+280
+     0
+  1
+1:1
+  0
+DICTIONARYVAR
+  5
+119
+102
+{ACAD_REACTORS
+330
+117
+102
+}
+330
+117
+100
+DictionaryVariables
+280
+     0
+  1
+Standard
+  0
+DICTIONARYVAR
+  5
+118
+102
+{ACAD_REACTORS
+330
+117
+102
+}
+330
+117
+100
+DictionaryVariables
+280
+     0
+  1
+Standard
+  0
+DICTIONARYVAR
+  5
+11C
+102
+{ACAD_REACTORS
+330
+117
+102
+}
+330
+117
 100
 DictionaryVariables
 280
@@ -5047,15 +6665,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-DF
+11D
 102
 {ACAD_REACTORS
 330
-D9
+117
 102
 }
 330
-D9
+117
 100
 DictionaryVariables
 280
@@ -5065,51 +6683,33 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-DD
+123
 102
 {ACAD_REACTORS
 330
-D9
+117
 102
 }
 330
-D9
+117
 100
 DictionaryVariables
 280
      0
   1
-80.000000
-  0
-DICTIONARYVAR
-  5
-DC
-102
-{ACAD_REACTORS
-330
-D9
-102
-}
-330
-D9
-100
-DictionaryVariables
-280
-     0
-  1
-5.000000
+1
   0
 XRECORD
   5
-BA
+F3
 102
 {ACAD_REACTORS
 330
-B9
+F2
 102
 }
 330
-B9
+F2
 100
 AcDbXrecord
 1000
@@ -5121,15 +6721,15 @@ CAXA_DRAFT_CURRENTBOMSTYLE
   0
 XRECORD
   5
-BB
+F4
 102
 {ACAD_REACTORS
 330
-B9
+F2
 102
 }
 330
-B9
+F2
 100
 AcDbXrecord
 1000
@@ -5602,18 +7202,20 @@ Source
 1090519039
 1071
 1090519039
+1071
+        1
   0
 XRECORD
   5
-B0
+E9
 102
 {ACAD_REACTORS
 330
-AF
+E8
 102
 }
 330
-AF
+E8
 100
 AcDbXrecord
 1000
@@ -5625,15 +7227,15 @@ CAXA_DRAFT_CURRENTCUTSSTYLE
   0
 XRECORD
   5
-B1
+EA
 102
 {ACAD_REACTORS
 330
-AF
+E8
 102
 }
 330
-AF
+E8
 100
 AcDbXrecord
 1000
@@ -5674,18 +7276,20 @@ CAXA_DRAFT_CUTSSTYLE
      0
 1000
 Dash Dot
+1071
+        1
   0
 XRECORD
   5
-B3
+EC
 102
 {ACAD_REACTORS
 330
-B2
+EB
 102
 }
 330
-B2
+EB
 100
 AcDbXrecord
 1000
@@ -5729,15 +7333,15 @@ CAXA_DRAFT_CUTSSTYLEOVERRIDE
   0
 XRECORD
   5
-BD
+F7
 102
 {ACAD_REACTORS
 330
-BC
+F6
 102
 }
 330
-BC
+F6
 100
 AcDbXrecord
 1000
@@ -5745,7 +7349,7 @@ AcDbXrecord
 1000
 CAXA_DRAFT_DATATABLE*Model_Space
 1071
-      103
+      101
 1071
         2
 1071
@@ -5844,18 +7448,140 @@ CAXA_DRAFT_DATATABLE*Model_Space
      1
 1000
 标准
+1071
+        0
   0
 XRECORD
   5
-AB
+10B
 102
 {ACAD_REACTORS
 330
-AA
+10A
 102
 }
 330
-AA
+10A
+100
+AcDbXrecord
+1000
+
+1000
+CAXA_DRAFT_DATATABLE*Paper_Space
+1071
+      101
+1071
+        2
+1071
+        0
+1071
+        0
+1071
+        0
+1071
+        9
+1000
+序号
+1071
+     1001
+1000
+代号
+1071
+     1002
+1000
+名称
+1071
+     1003
+1000
+数量
+1071
+     1004
+1000
+材料
+1071
+     1005
+1000
+单件
+1071
+     1007
+1000
+总计
+1071
+     1008
+1000
+备注
+1071
+     1009
+1000
+来源
+1071
+     1010
+1000
+序号
+1070
+     1
+1000
+
+1070
+     1
+1000
+
+1070
+     1
+1000
+
+1070
+     1
+1000
+
+1070
+     1
+1071
+        0
+1071
+        7
+1000
+代号
+1000
+名称
+1000
+材料
+1000
+单件
+1000
+总计
+1000
+备注
+1000
+来源
+1071
+        1
+1000
+数量
+1071
+        0
+1000
+
+1000
+
+1070
+     1
+1000
+标准
+1071
+        0
+  0
+XRECORD
+  5
+E4
+102
+{ACAD_REACTORS
+330
+E3
+102
+}
+330
+E3
 100
 AcDbXrecord
 1000
@@ -5867,15 +7593,15 @@ CAXA_DRAFT_CURRENTDATUMSTYLE
   0
 XRECORD
   5
-AC
+E5
 102
 {ACAD_REACTORS
 330
-AA
+E3
 102
 }
 330
-AA
+E3
 100
 AcDbXrecord
 1000
@@ -5912,18 +7638,20 @@ CAXA_DRAFT_DATUMSTYLE
 1090519039
 1070
      1
+1071
+        1
   0
 XRECORD
   5
-AE
+E7
 102
 {ACAD_REACTORS
 330
-AD
+E6
 102
 }
 330
-AD
+E6
 100
 AcDbXrecord
 1000
@@ -5965,15 +7693,15 @@ CAXA_DRAFT_DATUMSTYLEOVERRIDE
   0
 XRECORD
   5
-D0
+10E
 102
 {ACAD_REACTORS
 330
-CF
+10D
 102
 }
 330
-CF
+10D
 100
 AcDbXrecord
 1000
@@ -5981,19 +7709,19 @@ AcDbXrecord
 1000
 CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
 1070
-     1
+     0
   0
 XRECORD
   5
-D4
+112
 102
 {ACAD_REACTORS
 330
-D3
+111
 102
 }
 330
-D3
+111
 100
 AcDbXrecord
 1000
@@ -6005,15 +7733,15 @@ CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
   0
 XRECORD
   5
-D2
+110
 102
 {ACAD_REACTORS
 330
-D1
+10F
 102
 }
 330
-D1
+10F
 100
 AcDbXrecord
 1000
@@ -6025,15 +7753,15 @@ CAXA_DRAFT_DIMSTYLE_ISFILLDFM
   0
 XRECORD
   5
-D6
+114
 102
 {ACAD_REACTORS
 330
-D5
+113
 102
 }
 330
-D5
+113
 100
 AcDbXrecord
 1000
@@ -6045,81 +7773,81 @@ CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
   0
 XRECORD
   5
-D8
+116
 102
 {ACAD_REACTORS
 330
-D7
+115
 102
 }
 330
-D7
+115
 100
 AcDbXrecord
 1000
 CAXA_DRAFT_DRAFTDATA
 1071
-     1091
+     1115
 1004
-0800000030002E003000000026000000430061007800610044007200610066007400200044006F00630075006D0065006E007400000016000000310032002E0030002E0030002E0032003600330000005C00000043006F00700079007200690067006800740020002800630029002000320030003100300020004300410058
+0800000030002E003000000026000000430061007800610044007200610066007400200044006F00630075006D0065006E007400000024000000310035002E0030002E0030002E00350037003500310020002800780036003400290000005C00000043006F0070007900720069006700680074002000280063002900200032
 1004
-0041002E00200041006C006C0020007200690067006800740073002000720065007300650072007600650064002E0000005D04398064096C429EC47AF6512DC0A501000000E007030001000700150032000300DC03E007030001000700150032000300DC030100000000000000000000000000000000000000000000000000
-1004
-00
-1004
-00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-1004
-000000000000004E0000008F00EB0020008000CD00E30024008600B000FE0020008A00C200E7003D008700C600E50053009E00CD00960053008700D900E4005100F500C200E60021008100B00090002000F200C100AE000000020000000E00000041007500740068006F00720000001000000042004500450046004D004100
-1004
-4E
-1004
-0000001E000000500072006F006400750063007400560065007200730069006F006E00000010000000310031002E0031004400650076000000000000000800000030002E0030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-1004
-00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000030002E00300000000000000000
+00300031003000200043004100580041002E00200041006C006C0020007200690067006800740073002000720065007300650072007600650064002E000000CA5B7A7483AA3049A85D92BF890D11490000000000000000000000000000000000000000E207080001000600170014002C006903010000000000000000000000
 1004
 00
 1004
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 1004
-0000000000000000000000000000000000000000000000000000000800000030002E003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000004E0000008F00E40024008400B500E6005200F000B500FE005100F200CC00E0003D008700CD00E00020009E00B500EB002500F700D900EA002200F100B200EB0029008300B000E20021008700CD00AE000000020000000E00000041007500740068006F00720000001C00
 1004
 00
 1004
-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00410064006D0069006E006900730074007200610074006F00720000001E000000500072006F006400750063007400560065007200730069006F006E0000000A000000310035002E003000000000000000010000000800000030002E0030000000000000000000000000000000000000000000000000000000000000000000
+1004
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+1004
+00
+1004
+0000000000000800000030002E003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+1004
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000030002E003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+1004
+00
+1004
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   0
 XRECORD
   5
-85
+BE
 102
 {ACAD_REACTORS
 330
-84
+BD
 102
 }
 330
-84
+BD
 100
 AcDbXrecord
 1000
 CAXA_DRAFT_FILEVERSION
 1000
-12.0.0.263
+15.0.0.5751
 1000
 10.1.0.000
 1000
-12.0.0.000.20120615
+12.5.0.000.20130808
   0
 XRECORD
   5
-A6
+DF
 102
 {ACAD_REACTORS
 330
-A5
+DE
 102
 }
 330
-A5
+DE
 100
 AcDbXrecord
 1000
@@ -6131,15 +7859,15 @@ CAXA_DRAFT_CURRENTGEOTOLSTYLE
   0
 XRECORD
   5
-A7
+E0
 102
 {ACAD_REACTORS
 330
-A5
+DE
 102
 }
 330
-A5
+DE
 100
 AcDbXrecord
 1000
@@ -6169,7 +7897,7 @@ CAXA_DRAFT_GEOTOLSTYLE
 1070
      3
 1000
-.撳
+.\U+0EC1
 1070
      0
 1070
@@ -6185,7 +7913,7 @@ CAXA_DRAFT_GEOTOLSTYLE
 1041
 1.0
 1000
-.
+.\U+0ED3\U+FFFF
 1070
      0
 1070
@@ -6206,18 +7934,20 @@ Continuous
 1.0
 1071
 1090519039
+1071
+        1
   0
 XRECORD
   5
-A9
+E2
 102
 {ACAD_REACTORS
 330
-A8
+E1
 102
 }
 330
-A8
+E1
 100
 AcDbXrecord
 1000
@@ -6287,15 +8017,15 @@ CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
   0
 XRECORD
   5
-99
+D2
 102
 {ACAD_REACTORS
 330
-98
+D1
 102
 }
 330
-98
+D1
 100
 AcDbXrecord
 1000
@@ -6307,15 +8037,15 @@ CAXA_DRAFT_CURRENTLEADERSTYLE
   0
 XRECORD
   5
-9A
+D3
 102
 {ACAD_REACTORS
 330
-98
+D1
 102
 }
 330
-98
+D1
 100
 AcDbXrecord
 1000
@@ -6347,15 +8077,15 @@ Continuous
   0
 XRECORD
   5
-B5
+EE
 102
 {ACAD_REACTORS
 330
-B4
+ED
 102
 }
 330
-B4
+ED
 100
 AcDbXrecord
 1000
@@ -6367,15 +8097,15 @@ CAXA_DRAFT_CURRENTPARTNOSTYLE
   0
 XRECORD
   5
-B6
+EF
 102
 {ACAD_REACTORS
 330
-B4
+ED
 102
 }
 330
-B4
+ED
 100
 AcDbXrecord
 1000
@@ -6442,18 +8172,20 @@ ByLayer
 
 1041
 1.0
+1071
+        1
   0
 XRECORD
   5
-B8
+F1
 102
 {ACAD_REACTORS
 330
-B7
+F0
 102
 }
 330
-B7
+F0
 100
 AcDbXrecord
 1000
@@ -6495,15 +8227,15 @@ CAXA_DRAFT_PARTNOSTYLEOVERRIDE
   0
 XRECORD
   5
-A1
+DA
 102
 {ACAD_REACTORS
 330
-A0
+D9
 102
 }
 330
-A0
+D9
 100
 AcDbXrecord
 1000
@@ -6515,15 +8247,15 @@ CAXA_DRAFT_CURRENTROUGHSTYLE
   0
 XRECORD
   5
-A2
+DB
 102
 {ACAD_REACTORS
 330
-A0
+D9
 102
 }
 330
-A0
+D9
 100
 AcDbXrecord
 1000
@@ -6556,18 +8288,20 @@ Continuous
 0.0
 1071
         0
+1071
+        1
   0
 XRECORD
   5
-A4
+DD
 102
 {ACAD_REACTORS
 330
-A3
+DC
 102
 }
 330
-A3
+DC
 100
 AcDbXrecord
 1000
@@ -6601,15 +8335,15 @@ CAXA_DRAFT_ROUGHSTYLEOVERRIDE
   0
 XRECORD
   5
-9C
+D5
 102
 {ACAD_REACTORS
 330
-9B
+D4
 102
 }
 330
-9B
+D4
 100
 AcDbXrecord
 1000
@@ -6621,15 +8355,15 @@ CAXA_DRAFT_CURRENTWELDSTYLE
   0
 XRECORD
   5
-9D
+D6
 102
 {ACAD_REACTORS
 330
-9B
+D4
 102
 }
 330
-9B
+D4
 100
 AcDbXrecord
 1000
@@ -6666,18 +8400,20 @@ Dash
 0.0
 1071
         0
+1071
+        1
   0
 XRECORD
   5
-9F
+D8
 102
 {ACAD_REACTORS
 330
-9E
+D7
 102
 }
 330
-9E
+D7
 100
 AcDbXrecord
 1000
@@ -6715,15 +8451,15 @@ CAXA_DRAFT_WELDSTYLEOVERRIDE
   0
 DICTIONARY
   5
-EA
+126
 330
-3D
+45
 100
 AcDbDictionary
   3
 ACAD_XREC_ROUNDTRIP
 360
-EB
+127
 1001
 ACAD
 1000
@@ -6733,15 +8469,15 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-E8
+124
 330
-3C
+44
 100
 AcDbDictionary
   3
 ACAD_XREC_ROUNDTRIP
 360
-E9
+125
 1001
 ACAD
 1000
@@ -6751,15 +8487,15 @@ TREAT_AS_HARD
   0
 DICTIONARY
   5
-EC
+128
 330
-3E
+46
 100
 AcDbDictionary
   3
 ACAD_XREC_ROUNDTRIP
 360
-ED
+129
 1001
 ACAD
 1000
@@ -6769,15 +8505,15 @@ TREAT_AS_HARD
   0
 XRECORD
   5
-EB
+127
 102
 {ACAD_REACTORS
 330
-EA
+126
 102
 }
 330
-EA
+126
 100
 AcDbXrecord
 102
@@ -6809,15 +8545,15 @@ MATERIAL
   0
 XRECORD
   5
-E9
+125
 102
 {ACAD_REACTORS
 330
-E8
+124
 102
 }
 330
-E8
+124
 100
 AcDbXrecord
 102
@@ -6849,15 +8585,15 @@ MATERIAL
   0
 XRECORD
   5
-ED
+129
 102
 {ACAD_REACTORS
 330
-EC
+128
 102
 }
 330
-EC
+128
 100
 AcDbXrecord
 102
