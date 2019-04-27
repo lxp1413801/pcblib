@@ -1,104 +1,66 @@
-\t (00:01:05) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
-\t (00:01:05)     Journal start - Wed Jul 11 23:14:33 2018
-\t (00:01:05)         Host=VKK0FDEAPN5UZDC User=Administrator Pid=14752 CPUs=4
-\t (00:01:05) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:01:05) 
-\d (00:01:05) Design opened: D:/common lib/pcblib/allegro/lib/QFN28_6X6.dra
-\i (00:01:06) generaledit 
-\i (00:01:07) zoom in 1 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) zoom in 1.82 3.23
-\i (00:01:07) trapsize 5
-\i (00:01:07) zoom in 1 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) zoom in 1.82 3.24
-\i (00:01:07) trapsize 2
-\i (00:01:08) zoom in 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom in 1.84 3.23
-\i (00:01:08) trapsize 1
-\i (00:01:08) zoom out 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom out 1.75 3.04
-\i (00:01:08) trapsize 2
-\i (00:01:10) pick grid 1.96 3.40
-\t (00:01:10) last pick:  1.95 3.40
-\i (00:01:11) prepopup 1.96 3.40
-\i (00:01:15) pick grid 3.21 2.97
-\t (00:01:15) last pick:  3.20 2.95
-\i (00:01:16) zoom out 1 
-\i (00:01:16) setwindow pcb
-\i (00:01:16) zoom out 1.92 2.96
-\i (00:01:16) trapsize 5
-\i (00:01:16) zoom out 1 
-\i (00:01:16) setwindow pcb
-\i (00:01:16) zoom out 1.92 2.95
-\i (00:01:16) trapsize 10
-\i (00:01:18) zoom in 1 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) zoom in -2.38 1.82
-\i (00:01:18) trapsize 5
-\i (00:01:19) zoom in 1 
-\i (00:01:19) setwindow pcb
-\i (00:01:19) zoom in -2.38 1.88
-\i (00:01:19) trapsize 2
-\i (00:01:19) zoom in 1 
-\i (00:01:19) setwindow pcb
-\i (00:01:19) zoom in -2.37 1.88
-\i (00:01:19) trapsize 1
-\i (00:01:19) zoom out 1 
-\i (00:01:19) setwindow pcb
-\i (00:01:19) zoom out -2.34 1.94
-\i (00:01:19) trapsize 2
-\i (00:01:19) zoom out 1 
-\i (00:01:19) setwindow pcb
-\i (00:01:19) zoom out -2.35 1.94
-\i (00:01:19) trapsize 5
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out -2.06 2.87
-\i (00:01:21) trapsize 10
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out -2.06 2.87
-\t (00:01:21) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
-\i (00:01:21) trapsize 20
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out -0.30 0.99
-\t (00:01:21) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
-\i (00:01:21) trapsize 39
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -0.30 -0.18
-\t (00:01:22) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
-\i (00:01:22) trapsize 20
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -0.30 -0.18
-\t (00:01:22) Grids are drawn 0.10, 0.10 apart for enhanced viewability.
-\i (00:01:22) trapsize 10
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -0.30 -0.12
-\i (00:01:22) trapsize 5
-\i (00:01:23) zoom out 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom out -0.10 -0.91
-\i (00:01:23) trapsize 10
-\i (00:01:23) zoom out 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom out -0.11 -0.91
-\t (00:01:23) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
-\i (00:01:23) trapsize 20
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in -1.71 4.53
-\t (00:01:23) Grids are drawn 0.10, 0.10 apart for enhanced viewability.
-\i (00:01:23) trapsize 10
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in -1.71 4.53
-\i (00:01:23) trapsize 5
-\i (00:01:27) exit 
-\t (00:01:27)     Journal end - Wed Jul 11 23:14:55 2018
+\t (00:00:03) allegro 17.2 S052 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sat Apr 27 02:24:40 2019
+\t (00:00:03)         Host=EPXGWXQHIJPEB1A User=Administrator Pid=3212 CPUs=12
+\t (00:00:03) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe D:\pcblib\allegro\lib\CMPAD30CIR22D.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:05) fillin yes 
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged CMPAD30CIR22D
+\d (00:00:05) Design opened: D:/pcblib/allegro/lib/CMPAD30CIR22D.dra
+\t (00:00:06) Grids are drawn 51.20, 51.20 apart for enhanced viewing.
+\i (00:00:06) trapsize 4
+\i (00:00:06) trapsize 5
+\i (00:00:06) trapsize 4
+\i (00:00:06) trapsize 3
+\i (00:00:07) trapsize 4
+\i (00:00:07) generaledit 
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 0.81 2.69
+\i (00:00:10) trapsize 9
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 0.04 1.40
+\i (00:00:11) trapsize 4
+\i (00:00:15) open 
+\i (00:00:35) fillin "mch_3MM.dra"
+\t (00:00:35) Opening existing design...
+\i (00:00:36) trapsize 7
+\i (00:00:36) trapsize 8
+\i (00:00:36) trapsize 7
+\i (00:00:36) trapsize 7
+\d (00:00:36) Design opened: D:/pcblib/allegro/lib/mch_3MM.dra
+\i (00:00:37) generaledit 
+\i (00:00:43) padeditdb 
+\i (00:00:44) pick grid 0.33 0.58
+\t (00:00:44) last pick:  0.00 0.00
+\i (00:00:44) prepopup 0.33 0.58
+\i (00:00:48) padeditcur 
+\i (00:01:27) prepopup 0.43 2.04
+\i (00:01:28) padeditcur 
+\i (00:01:40) save 
+\i (00:01:42) fillin yes 
+\t (00:01:43) Symbol 'mch_3mm.bsm' created.
+\i (00:01:43) generaledit 
+\w (00:04:07)  WARNING: If this is a via padstack, it must be added to the via list in constraints.
+\w (00:05:38)  WARNING: If this is a via padstack, it must be added to the via list in constraints.
+\w (00:06:24)  WARNING: If this is a via padstack, it must be added to the via list in constraints.
+\i (00:06:24) zoom out 1 
+\i (00:06:24) setwindow pcb
+\i (00:06:24) zoom out 0.66 0.24
+\i (00:06:25) trapsize 15
+\i (00:06:25) zoom out 1 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) zoom out 1.11 2.54
+\i (00:06:25) trapsize 29
+\w (00:08:09)  WARNING: If this is a via padstack, it must be added to the via list in constraints.
+\i (00:10:16) zoom in 1 
+\i (00:10:16) setwindow pcb
+\i (00:10:16) zoom in 4.99 1.24
+\i (00:10:16) trapsize 15
+\i (00:10:18) exit 
+\e (00:10:18) Do you want to save the changes you made to D:/pcblib/allegro/lib/mch_3MM.dra?
+\i (00:10:20) fillin yes 
+\t (00:10:20) Symbol 'mch_3mm.bsm' created.
+\t (00:10:20)     Journal end - Sat Apr 27 02:34:57 2019

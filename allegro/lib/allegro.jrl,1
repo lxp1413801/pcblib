@@ -1,0 +1,124 @@
+\t (00:00:03) allegro 17.2 S052 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sat Apr 27 02:05:36 2019
+\t (00:00:03)         Host=EPXGWXQHIJPEB1A User=Administrator Pid=13548 CPUs=12
+\t (00:00:03) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe D:\pcblib\allegro\lib\mch_3MM.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged mch_3MM
+\d (00:00:03) Design opened: D:/pcblib/allegro/lib/mch_3MM.dra
+\i (00:00:03) trapsize 10
+\i (00:00:03) trapsize 11
+\i (00:00:03) trapsize 10
+\i (00:00:03) trapsize 7
+\i (00:00:03) trapsize 7
+\i (00:00:04) generaledit 
+\i (00:00:21) keepout shape 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 0.30 -0.17
+\i (00:00:23) trapsize 4
+\i (00:00:33) shape add circle 
+\i (00:00:36) pick grid 0.00 -0.01
+\t (00:00:36) last pick:  0.00 0.00
+\i (00:00:47) Define grid 
+\t (00:00:47) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:52) setwindow form.grid
+\i (00:00:52) FORM grid non_etch non_etch_x_grids 0.5 
+\i (00:00:55) FORM grid non_etch non_etch_y_grids .5 
+\i (00:00:59) FORM grid all_etch all_etch_x_grids .5 
+\i (00:01:01) FORM grid all_etch all_etch_y_grids .5 
+\i (00:01:01) FORM grid done  
+\i (00:01:04) setwindow pcb
+\i (00:01:04) grid toggle 
+\i (00:01:07) pick grid 0.42 1.74
+\t (00:01:07) last pick:  0.50 1.50
+\i (00:01:11) setwindow form.mini
+\i (00:01:11) FORM mini subclass TOP 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) cancel 
+\i (00:01:15) generaledit 
+\i (00:01:30) pick grid 0.01 0.01
+\t (00:01:30) last pick:  0.00 0.00
+\i (00:01:32) shape add circle 
+\i (00:01:35) pick grid 0.00 0.00
+\t (00:01:35) last pick:  0.00 0.00
+\i (00:01:37) pick grid -0.61 1.25
+\t (00:01:37) last pick:  -0.50 1.50
+\i (00:01:38) prepopup -0.69 1.50
+\i (00:01:39) done 
+\i (00:01:39) generaledit 
+\i (00:01:46) pick grid -0.37 1.58
+\t (00:01:46) last pick:  -0.50 1.50
+\i (00:01:48) drag_start grid -0.33 1.53
+\i (00:01:48) move 
+\t (00:01:48) last pick:  -0.50 1.50
+\t (00:01:48) Element has no origin, using pick.
+\t (00:01:48) Pick new location for the element(s).
+\i (00:01:49) drag_stop grid -0.38 1.91
+\i (00:01:49) generaledit 
+\i (00:01:50) delete 
+\i (00:01:50) generaledit 
+\i (00:01:54) shape add circle 
+\i (00:01:57) pick grid -0.01 0.00
+\t (00:01:57) last pick:  0.00 0.00
+\i (00:02:03) pick grid -2.00 0.24
+\t (00:02:03) last pick:  -2.00 0.00
+\i (00:02:04) prepopup -1.83 -0.05
+\i (00:02:04) done 
+\i (00:02:05) generaledit 
+\i (00:05:27) pick grid 1.58 1.21
+\t (00:05:27) last pick:  1.50 1.00
+\i (00:05:27) prepopup 1.57 1.21
+\i (00:05:28) pop dyn_option_select @:@Delete 
+\i (00:05:28) delete 
+\i (00:05:28) generaledit 
+\i (00:05:30) shape add circle 
+\i (00:05:33) Define grid 
+\t (00:05:33) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:05:35) setwindow form.grid
+\i (00:05:35) FORM grid non_etch non_etch_x_grids 1 
+\i (00:05:37) FORM grid non_etch non_etch_y_grids 1 
+\i (00:05:37) FORM grid top subclass_x_grids 1 
+\i (00:05:40) FORM grid top subclass_y_grids 1 
+\i (00:05:51) FORM grid non_etch non_etch_x_grids 2.5 
+\i (00:05:53) FORM grid non_etch non_etch_y_grids 2.5 
+\i (00:05:53) FORM grid top subclass_x_grids 2.5 
+\i (00:05:54) FORM grid top subclass_y_grids 2.5 
+\i (00:05:55) FORM grid done  
+\i (00:05:57) setwindow pcb
+\i (00:05:57) pick grid 0.02 0.00
+\t (00:05:57) last pick:  0.00 0.00
+\i (00:05:59) pick grid -1.26 0.02
+\t (00:05:59) last pick:  -2.50 0.00
+\i (00:05:59) prepopup -2.38 0.05
+\i (00:06:00) done 
+\i (00:06:00) generaledit 
+\i (00:06:01) zoom out 1 
+\i (00:06:01) setwindow pcb
+\i (00:06:01) zoom out -0.67 -0.60
+\i (00:06:01) trapsize 7
+\i (00:06:03) save 
+\i (00:06:04) fillin yes 
+\t (00:06:04) Symbol 'mch_3mm.bsm' created.
+\i (00:06:05) generaledit 
+\i (00:06:34) setwindow form.mini
+\i (00:06:34) FORM mini subclass ALL 
+\i (00:06:36) setwindow pcb
+\i (00:06:36) prepopup 2.24 1.15
+\i (00:06:38) pop dyn_option_select 'Change to layer@:@ALL' 
+\i (00:06:38) change layer 
+\t (00:06:38) No DRC errors detected.
+\t (00:06:38) Changed 1 items out of 1 items found.
+\i (00:06:39) generaledit 
+\i (00:06:40) save 
+\i (00:06:42) fillin yes 
+\t (00:06:42) Symbol 'mch_3mm.bsm' created.
+\i (00:06:42) generaledit 
+\i (00:08:28) padeditdb 
+\i (00:08:29) pick grid 0.08 0.45
+\t (00:08:29) last pick:  0.00 0.00
+\i (00:08:29) prepopup 0.08 0.45
+\i (00:08:31) padeditcur 
+\i (00:08:44) exit 
+\t (00:08:45)     Journal end - Sat Apr 27 02:14:18 2019

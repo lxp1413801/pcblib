@@ -1,0 +1,16 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                 DXF_LAYER!
+
+PACKAGE GEOMETRY!
+                   ASSEMBLY_TOP!             0!
+                   ASSEMBLY_TOP!             中心线层!
+                   ASSEMBLY_TOP!             虚线层!
+                   ASSEMBLY_TOP!             细实线层!
+                   ASSEMBLY_TOP!             粗实线层!
+                   ASSEMBLY_TOP!             尺寸线层!
+                   ASSEMBLY_TOP!             剖面线层!
+                   ASSEMBLY_TOP!             隐藏层!
+
+#END

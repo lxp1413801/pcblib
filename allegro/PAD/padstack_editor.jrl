@@ -1,0 +1,6 @@
+\t (00:00:00) padstack_editor 17.2 S052 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Apr 27 02:24:01 2019
+\t (00:00:00)         Host=EPXGWXQHIJPEB1A User=Administrator Pid=7344 CPUs=12
+\t (00:00:00) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe D:\pcblib\allegro\PAD\cir3mm.pad
+\t (00:00:00) 
+\t (00:00:02)     Journal end - Sat Apr 27 02:24:04 2019
